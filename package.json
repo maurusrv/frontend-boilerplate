@@ -1,0 +1,63 @@
+{
+  "name": "boilerplate",
+  "version": "1.0.0",
+  "description": "front end boilerplate",
+  "main": "dist/static/scripts/boilerplate.min.js",
+  "scripts": {
+    "start": "npm run-script webpack && npm run-script dev-serve",
+    "webpack": "webpack --config webpack.config.js",
+    "dev-serve": "node_modules/webpack-dev-server/bin/webpack-dev-server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/maurusrv/boilerplate.git"
+  },
+  "keywords": [
+    "boilerplate",
+    "react",
+    "webpack",
+    "babel"
+  ],
+  "author": "Maurus Vitor",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/maurusrv/boilerplate/issues"
+  },
+  "homepage": "https://github.com/maurusrv/boilerplate#readme",
+  "devDependencies": {
+    "@babel/core": "^7.4.4",
+    "@babel/plugin-proposal-class-properties": "^7.4.4",
+    "@babel/plugin-proposal-decorators": "^7.4.4",
+    "@babel/polyfill": "^7.4.4",
+    "@babel/preset-env": "^7.4.4",
+    "@babel/preset-react": "^7.0.0",
+    "babel-eslint": "^10.0.1",
+    "babel-loader": "^8.0.6",
+    "clean-webpack-plugin": "^2.0.2",
+    "css-loader": "^2.1.1",
+    "eslint": "^5.16.0",
+    "eslint-config-airbnb": "^17.1.0",
+    "eslint-plugin-import": "^2.17.2",
+    "eslint-plugin-jsx-a11y": "^6.2.1",
+    "eslint-plugin-react": "^7.13.0",
+    "html-webpack-plugin": "^3.2.0",
+    "html-webpack-root-plugin": "^0.10.0",
+    "node-sass": "^4.12.0",
+    "progress-bar-webpack-plugin": "^1.12.1",
+    "prop-types": "^15.7.2",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6",
+    "react-redux": "^7.0.3",
+    "react-router-dom": "^5.0.0",
+    "reduce-reducers": "^1.0.4",
+    "redux": "^4.0.1",
+    "redux-observable": "^1.1.0",
+    "rxjs": "^6.5.2",
+    "sass-loader": "^7.1.0",
+    "style-loader": "^0.23.1",
+    "webpack": "^4.31.0",
+    "webpack-cli": "^3.3.2",
+    "webpack-dev-server": "^3.4.1"
+  }
+}
